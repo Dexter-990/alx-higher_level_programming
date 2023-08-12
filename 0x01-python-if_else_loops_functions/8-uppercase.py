@@ -8,6 +8,8 @@ def uppercase(strg):
             i -= 0
         print("{}".format(chr(i)), end='')
     print("")
+
+
 def islower(c):
     if c >= 97 and c <= 122:
         return True
