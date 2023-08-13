@@ -15,4 +15,3 @@ if __name__ == "__main__":
             x += 1
             idx += 1
             print("{}: {}".format(idx, argv[x]))
-
