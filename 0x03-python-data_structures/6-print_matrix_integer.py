@@ -4,8 +4,8 @@ def print_matrix_integer(matrix=[[]]):
         for row in matrix:
             for column in range(3):
                 if column == 2:
-                    print("{}".format(row[column]))
+                    print("{:d}".format(row[column]))
                 else:
-                    print("{}".format(row[column]), end=' ')
+                    print("{:d}".format(row[column]), end=' ')
     else:
         print()
