@@ -4,8 +4,5 @@ def divisible_by_2(my_list=[]):
         return None
     arr = my_list[:]
     for i in range(len(my_list)):
-        if i % 2 == 0:
-            arr[i] = True
-        elif i % 2 != 0:
-            arr[i] = False
+        arr[i] = i % 2
     return arr
