@@ -9,6 +9,6 @@ def safe_print_integer_err(value):
     except ValueError as er:
         print("{}".format(er), file=stderr)
         return False
-    except TypeError as er:
-        print("{}".format(er), file=stderr)
+    except TypeError as te:
+        print("{}".format(te), file=stderr)
         return False
